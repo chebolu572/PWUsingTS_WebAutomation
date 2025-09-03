@@ -42,8 +42,24 @@ console.log("Total following rows are: "+countfol);
 let foltext:string=await followingaxes.nth(4).textContent()??"";
 console.log("Following text is: "+foltext);
 
-// ...existing code...
+//Preceding axes
+const precedingaxes:Locator = page.locator("//td[text()='Germany']/preceding::td");
+const countpre:number= await precedingaxes.count();
+console.log("Total preceding rows are: "+countpre);
+let pretext:string=await precedingaxes.nth(4).textContent()??"";
+console.log("Preceding text is: "+pretext);
 
-//await page.screenshot({ path: path.join("C:\PWUsingTS_WebAutomation\ScreenShots", 'axes_spec_screenshot.png') });
-// ...existing code...
+//Preceding-sibling axes
+const presibaxes:Locator = page.locator("//td[text()='Germany']/preceding-sibling::td");
+const countpresib:number= await presibaxes.count();
+console.log("Total preceding-sibling rows are: "+countpresib);
+let presibtext:string=await presibaxes.nth(1).textContent()??"";
+console.log("Preceding-sibling text is: "+presibtext);
+
+//Following-sibling axes
+const folsibaxes:Locator = page.locator("//td[text()='Germany']/following-sibling::td");
+const countfolsib:number= await folsibaxes.count();
+console.log("Total following-sibling rows are: "+countfolsib);
+let folsibtext:string=await folsibaxes.nth(1).textContent()??"";
+console.log("Following-sibling text is: "+folsibtext);
 });
