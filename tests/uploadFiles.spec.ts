@@ -18,7 +18,7 @@ import { test, expect } from '@playwright/test';
   test('Multiple file upload', async ({ page }) => {
      await page.goto('https://testautomationpractice.blogspot.com/');
 
-     await page.locator('#multipleFilesInput').setInputFiles(['uploads/Test1.txt', 'uploads/Test2.txt']);
+     await page.locator('#multipleFilesInput').setInputFiles(['uploads/testfile1.pdf', 'uploads/testfile2.pdf']);
 
     await page.locator('button:has-text("Upload Multiple Files")').click();
 

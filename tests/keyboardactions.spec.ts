@@ -17,7 +17,7 @@ await page.goto("https://testautomationpractice.blogspot.com/");
 
 const input1=page.locator('#input1');
 
-//1) fous on input1
+//1) focus on input1
 await input1.focus(); //await input1.click();
 
 //2) provide the text input1
