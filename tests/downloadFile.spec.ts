@@ -26,10 +26,8 @@ test('Download Text file and verify it exists', async ({ page}) => {
   // Clean up downloaded files
   if (fileExists) {
     fs.unlinkSync(downloadPath);
-  }
-    
+  }    
 });
-
 
 test('Download Pdf file and verify it exists', async ({ page}) => {
   // Navigate to the download page
