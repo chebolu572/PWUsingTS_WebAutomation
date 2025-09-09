@@ -1,0 +1,432 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - banner
+    - navigation "skip to main content":
+      - button "skip to main content" [ref=e4] [cursor=pointer]: Skip Navigation
+    - navigation "Main navigation" [ref=e6]:
+      - generic [ref=e7]:
+        - generic [ref=e9]:
+          - link "Google Store home. Google Store logo." [ref=e11] [cursor=pointer]:
+            - /url: /in/?hl=en-IN
+            - img [ref=e13] [cursor=pointer]
+          - generic [ref=e19]:
+            - link "Phones" [ref=e21] [cursor=pointer]:
+              - /url: /in/category/phones?hl=en-IN
+            - link "Earbuds" [ref=e23] [cursor=pointer]:
+              - /url: /in/category/earbuds?hl=en-IN
+            - link "Watches & Trackers" [ref=e25] [cursor=pointer]:
+              - /url: /in/category/watches_trackers?hl=en-IN
+            - link "Accessories" [ref=e27] [cursor=pointer]:
+              - /url: /in/collection/accessories_wall?hl=en-IN
+            - link "Offers" [ref=e29] [cursor=pointer]:
+              - /url: /in/collection/offers?hl=en-IN
+            - link "Support" [ref=e31] [cursor=pointer]:
+              - /url: /in/magazine/support?hl=en-IN
+        - generic [ref=e32]:
+          - button "Search the Google store" [ref=e34] [cursor=pointer]:
+            - img [ref=e36] [cursor=pointer]
+          - link "Go to empty shopping cart" [ref=e40] [cursor=pointer]:
+            - /url: /in/cart?hl=en-IN
+            - generic [ref=e41] [cursor=pointer]:
+              - img [ref=e43] [cursor=pointer]
+              - note "Go to empty shopping cart"
+          - button "Account panel" [ref=e47] [cursor=pointer]:
+            - img [ref=e50] [cursor=pointer]
+  - main [ref=e57]:
+    - generic [ref=e60]:
+      - heading "Google Store for Google Made Devices & Accessories" [level=1] [ref=e63]
+      - generic [ref=e64]:
+        - generic [ref=e65]:
+          - generic [ref=e77]:
+            - generic [ref=e84]:
+              - generic [ref=e85]:
+                - heading "Ask more of your phone." [level=2] [ref=e88]
+                - generic [ref=e94]: Google Pixel 10, Pixel 10 Pro, and Pixel 10 Pro XL are here. Say hello to your new phone. Google Pixel 10 Pro Fold is coming soon.
+              - link "Browse Pixel phones" [ref=e98] [cursor=pointer]:
+                - /url: /in/category/phones?hl=en-IN
+                - text: Browse phones
+            - button "play video" [ref=e108] [cursor=pointer]:
+              - img [ref=e110] [cursor=pointer]
+          - generic [ref=e124]:
+            - generic [ref=e128]: Popular on the Google Store.
+            - generic [ref=e129]:
+              - generic [ref=e130]:
+                - region [ref=e131]:
+                  - list [ref=e135]:
+                    - listitem [ref=e136]:
+                      - link "Buy Pixel 10 Pro" [ref=e137] [cursor=pointer]:
+                        - /url: /in/product/pixel_10_pro?hl=en-IN
+                      - generic [ref=e144]: New
+                      - generic [ref=e148]:
+                        - generic [ref=e149]:
+                          - generic [ref=e153]: Pixel 10 Pro and Pro XL
+                          - generic [ref=e155]:
+                            - generic [ref=e161]: From ₹4,166.62/mo
+                            - generic [ref=e166]:
+                              - text: with
+                              - link "Explore EMI options" [ref=e167] [cursor=pointer]:
+                                - /url: "#showEmiCalculator:_pixel_10_pro_fam"
+                                - generic [ref=e168] [cursor=pointer]: no-cost EMI & instant savings
+                              - text: or ₹1,09,999
+                        - link "Buy Pixel 10 Pro" [ref=e174] [cursor=pointer]:
+                          - /url: /in/config/pixel_10_pro?hl=en-IN
+                          - generic [ref=e175] [cursor=pointer]:
+                            - generic [ref=e176] [cursor=pointer]: Buy
+                            - img [ref=e178] [cursor=pointer]
+                    - listitem [ref=e180]:
+                      - link "Buy Pixel 10" [ref=e181] [cursor=pointer]:
+                        - /url: /in/product/pixel_10?hl=en-IN
+                      - generic [ref=e188]: New
+                      - generic [ref=e192]:
+                        - generic [ref=e193]:
+                          - generic [ref=e197]: Pixel 10
+                          - generic [ref=e199]:
+                            - generic [ref=e205]: ₹3,041.62/mo
+                            - generic [ref=e210]:
+                              - text: with
+                              - link "Explore EMI options" [ref=e211] [cursor=pointer]:
+                                - /url: "#showEmiCalculator:_pixel_10_fam"
+                                - generic [ref=e212] [cursor=pointer]: no-cost EMI & instant savings
+                              - text: or ₹79,999
+                        - link "Buy Pixel 10" [ref=e218] [cursor=pointer]:
+                          - /url: /in/config/pixel_10?hl=en-IN
+                          - generic [ref=e219] [cursor=pointer]:
+                            - generic [ref=e220] [cursor=pointer]: Buy
+                            - img [ref=e222] [cursor=pointer]
+                    - listitem [ref=e224]:
+                      - link "Buy Pixel 10 Pro Fold" [ref=e225] [cursor=pointer]:
+                        - /url: /in/product/pixel_10_pro_fold?hl=en-IN
+                      - generic [ref=e232]: Coming soon
+                      - generic [ref=e236]:
+                        - generic [ref=e237]:
+                          - generic [ref=e241]: Pixel 10 Pro Fold
+                          - generic [ref=e243]:
+                            - generic [ref=e249]: ₹7,208.29/mo
+                            - generic [ref=e254]:
+                              - text: with
+                              - link "Explore EMI options" [ref=e255] [cursor=pointer]:
+                                - /url: "#showEmiCalculator:_pixel_10_pro_fold_fam"
+                                - generic [ref=e256] [cursor=pointer]: no-cost EMI
+                              - text: or ₹1,72,999
+                        - button "Sign in to get notified for Pixel 10 Pro Fold" [ref=e262] [cursor=pointer]:
+                          - generic [ref=e263] [cursor=pointer]:
+                            - generic [ref=e264] [cursor=pointer]: Sign in to get notified
+                            - img [ref=e266] [cursor=pointer]
+                    - listitem [ref=e268]:
+                      - link "Buy Pixel Watch 4" [ref=e269] [cursor=pointer]:
+                        - /url: /in/product/pixel_watch_4?hl=en-IN
+                      - generic [ref=e276]: Coming soon
+                      - generic [ref=e280]:
+                        - generic [ref=e281]:
+                          - generic [ref=e285]: Pixel Watch 4
+                          - generic [ref=e287]:
+                            - generic [ref=e293]: From ₹1,794.34/mo
+                            - generic [ref=e298]:
+                              - text: with
+                              - link "Explore EMI options" [ref=e299] [cursor=pointer]:
+                                - /url: "#showEmiCalculator:_google_pixel_watch_4_fam"
+                                - generic [ref=e300] [cursor=pointer]: low-cost EMI
+                              - text: or ₹39,900
+                        - button "Sign in to get notified for Pixel Watch 4" [ref=e306] [cursor=pointer]:
+                          - generic [ref=e307] [cursor=pointer]:
+                            - generic [ref=e308] [cursor=pointer]: Sign in to get notified
+                            - img [ref=e310] [cursor=pointer]
+                    - listitem [ref=e312]:
+                      - link "Buy Pixel Buds 2a" [ref=e313] [cursor=pointer]:
+                        - /url: /in/product/pixel_buds_2a?hl=en-IN
+                      - generic [ref=e320]: Coming soon
+                      - generic [ref=e324]:
+                        - generic [ref=e325]:
+                          - generic [ref=e329]: Pixel Buds 2a
+                          - generic [ref=e331]:
+                            - generic [ref=e337]: ₹584.58/mo
+                            - generic [ref=e342]:
+                              - text: with
+                              - link "Explore EMI options" [ref=e343] [cursor=pointer]:
+                                - /url: "#showEmiCalculator:_pixel_buds_2a_fam"
+                                - generic [ref=e344] [cursor=pointer]: low-cost EMI
+                              - text: or ₹12,999
+                        - button "Sign in to get notified for Pixel Buds 2a" [ref=e350] [cursor=pointer]:
+                          - generic [ref=e351] [cursor=pointer]:
+                            - generic [ref=e352] [cursor=pointer]: Sign in to get notified
+                            - img [ref=e354] [cursor=pointer]
+                    - listitem [ref=e356]:
+                      - link "Buy Pixel Buds Pro 2" [ref=e357] [cursor=pointer]:
+                        - /url: /in/product/pixel_buds_pro_2?hl=en-IN
+                      - generic [ref=e364]: New
+                      - generic [ref=e368]:
+                        - generic [ref=e369]:
+                          - generic [ref=e373]: Pixel Buds Pro 2
+                          - generic [ref=e375]:
+                            - generic [ref=e381]: ₹1,029.84/mo
+                            - generic [ref=e386]:
+                              - text: with
+                              - link "Explore EMI options" [ref=e387] [cursor=pointer]:
+                                - /url: "#showEmiCalculator:_pixel_buds_pro_2024_fam"
+                                - generic [ref=e388] [cursor=pointer]: low-cost EMI
+                              - text: or ₹22,900
+                        - link "Buy Pixel Buds Pro 2" [ref=e394] [cursor=pointer]:
+                          - /url: /in/config/pixel_buds_pro_2?hl=en-IN
+                          - generic [ref=e395] [cursor=pointer]:
+                            - generic [ref=e396] [cursor=pointer]: Buy
+                            - img [ref=e398] [cursor=pointer]
+                    - listitem [ref=e400]:
+                      - link "Buy pixel 9a" [ref=e401] [cursor=pointer]:
+                        - /url: /in/product/pixel_9a?hl=en-IN
+                      - generic [ref=e409]:
+                        - generic [ref=e410]:
+                          - generic [ref=e414]: Pixel 9a
+                          - generic [ref=e416]:
+                            - generic [ref=e422]: ₹1,791.62/mo
+                            - generic [ref=e427]:
+                              - text: with
+                              - link "Explore EMI options" [ref=e428] [cursor=pointer]:
+                                - /url: "#showEmiCalculator:_pixel_9a_fam"
+                                - generic [ref=e429] [cursor=pointer]: no-cost EMI & instant savings
+                              - text: or ₹49,999
+                        - link "Buy Pixel 9a" [ref=e435] [cursor=pointer]:
+                          - /url: /in/config/pixel_9a?hl=en-IN
+                          - generic [ref=e436] [cursor=pointer]:
+                            - generic [ref=e437] [cursor=pointer]: Buy
+                            - img [ref=e439] [cursor=pointer]
+                    - listitem [ref=e441]:
+                      - link [ref=e442] [cursor=pointer]:
+                        - /url: /in/collection/accessories_wall?hl=en-IN
+                      - generic [ref=e455]: Pixel cases
+                - scrollbar "Buy Pixel 10 Pro New Pixel 10 Pro and Pro XL From ₹4,166.62/mo with Explore EMI options or ₹1,09,999 Buy Pixel 10 Pro Buy Pixel 10 New Pixel 10 ₹3,041.62/mo with Explore EMI options or ₹79,999 Buy Pixel 10 Buy Pixel 10 Pro Fold Coming soon Pixel 10 Pro Fold ₹7,208.29/mo with Explore EMI options or ₹1,72,999 Sign in to get notified for Pixel 10 Pro Fold Buy Pixel Watch 4 Coming soon Pixel Watch 4 From ₹1,794.34/mo with Explore EMI options or ₹39,900 Sign in to get notified for Pixel Watch 4 Buy Pixel Buds 2a Coming soon Pixel Buds 2a ₹584.58/mo with Explore EMI options or ₹12,999 Sign in to get notified for Pixel Buds 2a Buy Pixel Buds Pro 2 New Pixel Buds Pro 2 ₹1,029.84/mo with Explore EMI options or ₹22,900 Buy Pixel Buds Pro 2 Buy pixel 9a Pixel 9a ₹1,791.62/mo with Explore EMI options or ₹49,999 Buy Pixel 9a Pixel cases" [ref=e457] [cursor=pointer]
+              - button "Next slide" [ref=e460] [cursor=pointer]:
+                - img [ref=e462] [cursor=pointer]
+          - generic [ref=e480]:
+            - generic [ref=e481]:
+              - generic [ref=e490]:
+                - generic [ref=e491]:
+                  - heading "Google Pixel 10 Pro and Pro XL" [level=2] [ref=e494]
+                  - generic [ref=e500]: Meet the new status pro.
+                - link "Buy Pixel 10 Pro" [ref=e504] [cursor=pointer]:
+                  - /url: /in/product/pixel_10_pro?hl=en-IN
+                  - text: Learn more
+              - img "The back side of a Pixel 10 Pro in Moonstone colour." [ref=e509]
+            - generic [ref=e511]:
+              - generic [ref=e520]:
+                - generic [ref=e521]:
+                  - heading "Google Pixel 10" [level=2] [ref=e524]
+                  - generic [ref=e530]: Do spectacular things, every day.
+                - link "Buy Pixel 10" [ref=e534] [cursor=pointer]:
+                  - /url: /in/product/pixel_10?hl=en-IN
+                  - text: Learn more
+              - img "The back side of a Pixel 10 in Indigo colour." [ref=e539]
+            - generic [ref=e541]:
+              - generic [ref=e550]:
+                - generic [ref=e551]:
+                  - heading "Google Pixel 10 Pro Fold" [level=2] [ref=e554]
+                  - generic [ref=e560]: Unfold extraordinary.
+                - link "Buy Pixel 10 Pro Fold" [ref=e564] [cursor=pointer]:
+                  - /url: /in/product/pixel_10_pro_fold?hl=en-IN
+                  - text: Learn more
+              - img "A slightly opened Pixel 10 Pro Fold in Moonstone colour." [ref=e569]
+          - generic [ref=e587]:
+            - generic [ref=e588]:
+              - generic [ref=e597]:
+                - generic [ref=e598]:
+                  - heading "Google Pixel Watch 4" [level=2] [ref=e601]
+                  - generic [ref=e607]: Precision crafted. Performance ready.
+                - link "Buy Pixel Watch 4" [ref=e611] [cursor=pointer]:
+                  - /url: /in/product/pixel_watch_4?hl=en-IN
+                  - text: Learn more
+              - img "A profile of Google Pixel Watch 4 featuring its domed glass display." [ref=e616]
+            - generic [ref=e618]:
+              - generic [ref=e627]:
+                - generic [ref=e628]:
+                  - heading "Google Pixel Buds Pro 2" [level=2] [ref=e631]
+                  - generic [ref=e637]: Light ears ahead.
+                - link "Buy Pixel Buds Pro 2" [ref=e641] [cursor=pointer]:
+                  - /url: /in/product/pixel_buds_pro_2?hl=en-IN
+                  - text: Learn more
+              - img "A pair of Pixel Buds Pro 2 in Moonstone colour." [ref=e646]
+          - generic [ref=e659]:
+            - generic [ref=e667]:
+              - heading "Perks of buying from Google Store." [level=2] [ref=e670]
+              - generic [ref=e676]: Shop with assurance and convenience when you buy directly from us, and enjoy savings and offers exclusive to Google Store.
+            - generic [ref=e678]:
+              - region [ref=e679]:
+                - list [ref=e681]:
+                  - listitem [ref=e682]:
+                    - generic [ref=e691]:
+                      - generic [ref=e692]:
+                        - heading "Upgrade your Pixel phone for less with exchange." [level=2] [ref=e695]
+                        - generic [ref=e703]: Upgrade to the latest Pixel phone and get money back when you exchange your old phone. Plus, receive an exchange bonus when you purchase select Pixel models.
+                      - link "Learn more" [ref=e707] [cursor=pointer]:
+                        - /url: /in/magazine/trade_in?hl=en-IN
+                        - generic [ref=e708] [cursor=pointer]:
+                          - generic [ref=e709] [cursor=pointer]: Learn more
+                          - img [ref=e711] [cursor=pointer]
+                  - listitem [ref=e713]
+                  - listitem [ref=e720]:
+                    - generic [ref=e729]:
+                      - generic [ref=e730]:
+                        - heading "Discover the most affordable ways to own a Pixel." [level=2] [ref=e733]
+                        - generic [ref=e741]: Unlock savings with exchange offers and no-cost EMI when you shop with us. Save more with instant cashback with participating banks.
+                      - link "Learn more" [ref=e745] [cursor=pointer]:
+                        - /url: /in/magazine/installments?hl=en-IN
+                        - generic [ref=e746] [cursor=pointer]:
+                          - generic [ref=e747] [cursor=pointer]: Learn more
+                          - img [ref=e749] [cursor=pointer]
+                  - listitem [ref=e751]:
+                    - generic [ref=e760]:
+                      - generic [ref=e761]:
+                        - heading "Earn Google Store credit when you buy with us." [level=2] [ref=e764]
+                        - generic [ref=e772]: Get rewarded with Google Store credit when you purchase during eligible promotions and use the credit to save on your next order with us. Discover all the ways to save with our latest deals.
+                      - link "Learn more" [ref=e776] [cursor=pointer]:
+                        - /url: /in/collection/offers?hl=en-IN
+                        - generic [ref=e777] [cursor=pointer]:
+                          - generic [ref=e778] [cursor=pointer]: Learn more
+                          - img [ref=e780] [cursor=pointer]
+              - scrollbar "Upgrade your Pixel phone for less with exchange. Upgrade to the latest Pixel phone and get money back when you exchange your old phone. Plus, receive an exchange bonus when you purchase select Pixel models. Learn more Discover the most affordable ways to own a Pixel. Unlock savings with exchange offers and no-cost EMI when you shop with us. Save more with instant cashback with participating banks. Learn more Earn Google Store credit when you buy with us. Get rewarded with Google Store credit when you purchase during eligible promotions and use the credit to save on your next order with us. Discover all the ways to save with our latest deals. Learn more" [ref=e783] [cursor=pointer]
+          - region [ref=e793]:
+            - list [ref=e795]:
+              - listitem [ref=e796]:
+                - generic [ref=e799]:
+                  - generic [ref=e805]: Answers and support at your fingertips.
+                  - link "Learn more" [ref=e809] [cursor=pointer]:
+                    - /url: /in/magazine/support?hl=en-IN
+              - listitem [ref=e810]:
+                - generic [ref=e813]:
+                  - generic [ref=e819]: Free delivery.
+                  - link "Learn about our easy returns that are free of charge." [ref=e823] [cursor=pointer]:
+                    - /url: https://support.google.com/store/answer/12436460
+                    - text: Learn more
+          - heading "Discover the world of Pixel." [level=2] [ref=e846]
+          - generic [ref=e874]:
+            - generic [ref=e875]:
+              - heading "Continuous updates. Constant delight." [level=2] [ref=e878]
+              - generic [ref=e884]:
+                - text: Every Pixel Drop brings you new and improved features, including the latest AI innovations.
+                - superscript [ref=e885]:
+                  - link "footnote *" [ref=e886] [cursor=pointer]:
+                    - /url: "#footnote:pixel-drop"
+                    - text: "*"
+            - link "Learn more about Pixel Drops." [ref=e890] [cursor=pointer]:
+              - /url: /in/magazine/pixel_drop?hl=en-IN
+              - text: Explore
+          - generic [ref=e905]:
+            - heading "Popular categories" [level=2] [ref=e916]
+            - generic [ref=e917]:
+              - link "Phones" [ref=e918] [cursor=pointer]:
+                - /url: /in/category/phones?hl=en-IN
+                - generic [ref=e935] [cursor=pointer]: Phones
+              - link "Watches & Trackers" [ref=e936] [cursor=pointer]:
+                - /url: /in/category/watches_trackers?hl=en-IN
+                - generic [ref=e953] [cursor=pointer]: Watches & Trackers
+              - link "Two pairs of Pixel earbuds side by side. Earbuds" [ref=e954] [cursor=pointer]:
+                - /url: /in/category/earbuds?hl=en-IN
+                - img "Two pairs of Pixel earbuds side by side." [ref=e959] [cursor=pointer]
+                - generic [ref=e972] [cursor=pointer]: Earbuds
+          - generic [ref=e990]:
+            - heading "Get news, offers, cart reminders, personalised emails, and surveys from the Google Store." [level=2] [ref=e1001]
+            - generic [ref=e1002]:
+              - button "Sign in and sign up" [ref=e1005] [cursor=pointer]
+              - button "or enter email address" [ref=e1007] [cursor=pointer]:
+                - generic [ref=e1008] [cursor=pointer]:
+                  - generic [ref=e1009] [cursor=pointer]: or enter email address
+                  - img [ref=e1011] [cursor=pointer]
+          - list [ref=e1032]:
+            - listitem [ref=e1033]:
+              - superscript [ref=e1035]: †
+              - generic [ref=e1036]: All orders that are delivered free of charge use the lowest-cost option unless otherwise noted.
+            - listitem [ref=e1037]:
+              - superscript [ref=e1039]: "*"
+              - generic [ref=e1040]: Your Pixel will generally receive Pixel Drops during the applicable Android update and support periods for the phone. See g.co/pixel/updates for details. Availability of some Pixel Drops may vary by phone and device model.
+        - region "Footnotes" [ref=e1042]
+  - contentinfo [ref=e1045]:
+    - generic [ref=e1047]:
+      - generic [ref=e1049]:
+        - img [ref=e1052]
+        - generic [ref=e1062]:
+          - list [ref=e1064]:
+            - listitem [ref=e1065]:
+              - generic [ref=e1067]: Orders
+              - link "EMI & Cashback" [ref=e1069] [cursor=pointer]:
+                - /url: /in/magazine/installments?hl=en-IN
+                - generic [ref=e1070] [cursor=pointer]: EMI & Cashback
+              - link "Exchange program" [ref=e1072] [cursor=pointer]:
+                - /url: /in/magazine/trade_in?hl=en-IN
+                - generic [ref=e1073] [cursor=pointer]: Exchange program
+              - link "Payment methods" [ref=e1075] [cursor=pointer]:
+                - /url: https://support.google.com/store/answer/6160267
+                - generic [ref=e1076] [cursor=pointer]: Payment methods
+              - link "Shipping options" [ref=e1078] [cursor=pointer]:
+                - /url: https://support.google.com/store/answer/12436460
+                - generic [ref=e1079] [cursor=pointer]: Shipping options
+              - link "Managing an order" [ref=e1081] [cursor=pointer]:
+                - /url: https://support.google.com/store/answer/6380753
+                - generic [ref=e1082] [cursor=pointer]: Managing an order
+              - link "Country availability" [ref=e1084] [cursor=pointer]:
+                - /url: https://support.google.com/store/answer/2462844
+                - generic [ref=e1085] [cursor=pointer]: Country availability
+          - list [ref=e1087]:
+            - listitem [ref=e1088]:
+              - generic [ref=e1090]: Orders
+              - link "Help Centre" [ref=e1092] [cursor=pointer]:
+                - /url: https://support.google.com/store/
+                - generic [ref=e1093] [cursor=pointer]: Help Centre
+              - link "Repairs" [ref=e1095] [cursor=pointer]:
+                - /url: /in/magazine/repaircenter?hl=en-IN
+                - generic [ref=e1096] [cursor=pointer]: Repairs
+              - link "Disability Support" [ref=e1098] [cursor=pointer]:
+                - /url: https://support.google.com/accessibility/answer/7641084
+                - generic [ref=e1099] [cursor=pointer]: Disability Support
+              - link "Fitbit support" [ref=e1101] [cursor=pointer]:
+                - /url: /in/magazine/google_fitbit?hl=en-IN
+                - generic [ref=e1102] [cursor=pointer]: Fitbit support
+              - link "Contact Us" [ref=e1104] [cursor=pointer]:
+                - /url: https://support.google.com/store/gethelp
+                - generic [ref=e1105] [cursor=pointer]: Contact Us
+          - list [ref=e1107]:
+            - listitem [ref=e1108]:
+              - generic [ref=e1110]: Sustainability
+              - link "Device recycling" [ref=e1112] [cursor=pointer]:
+                - /url: https://support.google.com/store/answer/3036017
+                - generic [ref=e1113] [cursor=pointer]: Device recycling
+      - generic [ref=e1116]:
+        - list [ref=e1117]:
+          - listitem [ref=e1118]:
+            - link "Twitter" [ref=e1119] [cursor=pointer]:
+              - /url: https://twitter.com/madebygoogle
+              - img [ref=e1121] [cursor=pointer]
+          - listitem [ref=e1124]:
+            - link "Instagram" [ref=e1125] [cursor=pointer]:
+              - /url: https://instagram.com/madebygoogle
+              - img [ref=e1127] [cursor=pointer]
+          - listitem [ref=e1132]:
+            - link "Facebook" [ref=e1133] [cursor=pointer]:
+              - /url: https://facebook.com/madebygoogle
+              - img [ref=e1135] [cursor=pointer]
+          - listitem [ref=e1138]:
+            - link "YouTube" [ref=e1139] [cursor=pointer]:
+              - /url: https://youtube.com/madebygoogle
+              - img [ref=e1141] [cursor=pointer]
+        - list [ref=e1145]:
+          - listitem [ref=e1146]:
+            - link "India. Choose your country or region." [ref=e1147] [cursor=pointer]:
+              - /url: /regionpicker
+              - generic [ref=e1150] [cursor=pointer]: India
+          - listitem [ref=e1151]:
+            - link "link to Privacy" [ref=e1152] [cursor=pointer]:
+              - /url: https://policies.google.com/privacy
+              - generic [ref=e1153] [cursor=pointer]: Privacy
+          - listitem [ref=e1154]:
+            - link "link to Google Nest Commitment to Privacy" [ref=e1155] [cursor=pointer]:
+              - /url: https://safety.google/intl/en_GB/nest/
+              - generic [ref=e1156] [cursor=pointer]: Google Nest Commitment to Privacy
+          - listitem [ref=e1157]:
+            - link "link to Sales Terms" [ref=e1158] [cursor=pointer]:
+              - /url: https://store.google.com/intl/en-GB_in/about/device-terms.html
+              - generic [ref=e1159] [cursor=pointer]: Sales Terms
+          - listitem [ref=e1160]:
+            - link "link to Terms of Service" [ref=e1161] [cursor=pointer]:
+              - /url: https://www.google.com/intl/en-GB_in/policies/terms/
+              - generic [ref=e1162] [cursor=pointer]: Terms of Service
+```
